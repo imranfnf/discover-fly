@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background:url("images/bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    padding: 20px 0;
+}
+.container{
+    width: 1200px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 6px;
+}
+nav ul li a{
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+}
+nav ul li a:hover, a.active{
+    background-color: #3352F2;
+    border-radius: 5px;
+}
+.main-content{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+.booking-form{
+    background-color: #fff;
+    border: 1px solid rgb(238, 224, 224);
+    padding: 10px;
+    border-radius: 10px;
+    float: left;
+    margin-top: -20px;
+    margin-right: 80px;
+    padding-left: 20px;
+    
+}
+.booking-form h3{
+    margin: 10px 0px;
+}
+.booking-form  .input-group{
+    margin: 10px 0px;
+}
+.f-class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inp-width{
+    min-width: 300px;
+}
+.plus-minus-btn{
+    color: #3352F2;
+    font-size: 30px;
+    padding: 2px;
+    margin-top: 10px;
+    word-spacing: 20px;
+}
+.booking-form  .calculations{
+    margin: 10px 0;
+}
+.booking-form  .calculations p{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.booking-form input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #F3F5FF;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+.booking-form .inputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.booking-content{
+    color: #fff;
+    width: 80%;
+    
+    
+}
+.booking-content h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    padding-top: 10%;
+  
+
+    
+    
+}
+
+
+  #discover{
+      
+      color: #30f029;
+  }  
+ 
+
+#text{
+    color: rgb(92, 243, 51);
+    
+}
+
+
+.amount{
+    display: flex;
+    justify-content: space-between;
+}
+
+#new-area{
+    display: none;
+   text-align: center;
+   margin: 0 auto;
+   color: yellow;
+   padding: 17%;
+   background-color: blanchedalmond;
+   height: 100vh;
+   
+
+}
+
+.congrats{
+    font-size: 60px;
+    color: rgb(81, 72, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+  
+}
+
+h3, h4{
+
+    color: rgb(73, 73, 114);
+}
